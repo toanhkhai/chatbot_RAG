@@ -13,15 +13,18 @@ __pycache__/
 *$py.class
 
 ### --- AI / Machine Learning --- ###
-# Không đẩy dữ liệu và kết quả nặng lên Git
-**/data/
+# Không đẩy dữ liệu gốc và cơ sở dữ liệu Vector lên Git (Rất nặng và bảo mật)
+/data/
+/vector_database/
+
+# Không đẩy kết quả đầu ra hoặc model tải về máy (như model Transformers)
 **/outputs/
-# Nếu bạn tải model về máy (như model Transformers)
 **/models/
 *.h5
 *.pth
 *.pt
 *.pkl
+
 
 ### --- VS Code --- ###
 # File cấu hình riêng của bạn (tọa độ chuột, các file đã mở...)
